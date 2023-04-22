@@ -92,7 +92,7 @@ app.post("/addReminder", (req, res) => {
       if (reminderList) {
         res.send(reminderList);
       }
-    });
+    });//DONE
   });
 });
 app.post("/deleteReminder", (req, res) => {
