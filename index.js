@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded());
 app.use(cors());
-
+ 
 //DB config
 
 mongoose.connect("mongodb://localhost:27017/myapp", {
